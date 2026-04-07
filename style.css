@@ -23,7 +23,8 @@ body {
   margin: 0;
   color: var(--text);
   font-family: "Manrope", sans-serif;
-  background: radial-gradient(circle at 15% 15%, #1d3b69, transparent 45%),
+  background:
+    radial-gradient(circle at 15% 15%, #1d3b69, transparent 45%),
     radial-gradient(circle at 85% 10%, #0f4d67, transparent 35%),
     linear-gradient(130deg, var(--bg-1), var(--bg-2) 50%, var(--bg-3));
   background-size: 200% 200%;
@@ -48,7 +49,11 @@ body {
   pointer-events: none;
   z-index: -2;
   transform: translate(-50%, -50%);
-  background: radial-gradient(circle, rgba(88, 213, 255, 0.22), transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(88, 213, 255, 0.22),
+    transparent 70%
+  );
   transition: transform 0.08s linear;
 }
 
@@ -120,7 +125,11 @@ p {
   height: 290px;
   top: 2%;
   left: -5%;
-  background: linear-gradient(120deg, rgba(88, 213, 255, 0.55), rgba(156, 255, 208, 0.2));
+  background: linear-gradient(
+    120deg,
+    rgba(88, 213, 255, 0.55),
+    rgba(156, 255, 208, 0.2)
+  );
   animation: floatBlob 8s ease-in-out infinite;
 }
 
@@ -129,7 +138,11 @@ p {
   height: 220px;
   right: 8%;
   top: 8%;
-  background: linear-gradient(120deg, rgba(93, 108, 255, 0.45), rgba(88, 213, 255, 0.2));
+  background: linear-gradient(
+    120deg,
+    rgba(93, 108, 255, 0.45),
+    rgba(88, 213, 255, 0.2)
+  );
   animation: floatBlob 11s ease-in-out infinite reverse;
 }
 
@@ -138,7 +151,11 @@ p {
   height: 320px;
   bottom: 2%;
   right: -8%;
-  background: linear-gradient(120deg, rgba(156, 255, 208, 0.45), rgba(66, 142, 255, 0.2));
+  background: linear-gradient(
+    120deg,
+    rgba(156, 255, 208, 0.45),
+    rgba(66, 142, 255, 0.2)
+  );
   animation: floatBlob 9s ease-in-out infinite;
 }
 
@@ -215,7 +232,10 @@ p {
   border: 1px solid rgba(159, 215, 255, 0.2);
   border-radius: 18px;
   padding: 1rem;
-  transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .stat-card strong {
@@ -266,7 +286,9 @@ p {
   border: 1px solid rgba(88, 213, 255, 0.25);
   background: rgba(9, 19, 45, 0.8);
   color: #d5ebff;
-  transition: transform 0.25s ease, border-color 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease;
   animation: chipPulse 6s ease-in-out infinite;
 }
 
@@ -312,6 +334,7 @@ p {
   color: var(--accent-2);
   font-weight: 700;
   font-size: 0.92rem;
+  padding-left: 10px;
 }
 
 .task-block h4,
@@ -358,7 +381,9 @@ p {
 .reveal {
   opacity: 0;
   transform: translateY(24px) scale(0.98);
-  transition: opacity 0.85s ease, transform 0.85s cubic-bezier(0.2, 1, 0.25, 1);
+  transition:
+    opacity 0.85s ease,
+    transform 0.85s cubic-bezier(0.2, 1, 0.25, 1);
 }
 
 .reveal.in-view {
