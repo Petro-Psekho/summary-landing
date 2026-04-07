@@ -99,11 +99,11 @@ p {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: auto;
   display: grid;
-  align-items: center;
+  align-items: start;
   padding-top: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.5rem;
   position: relative;
 }
 
