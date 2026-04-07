@@ -168,6 +168,7 @@ p {
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
+  object-position: center center;
   transform: scale(1.08);
   animation: portraitBreath 8s ease-in-out infinite;
 }
