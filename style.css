@@ -386,6 +386,10 @@ p {
     transform 0.85s cubic-bezier(0.2, 1, 0.25, 1);
 }
 
+.mrb {
+  margin-bottom: 3rem;
+}
+
 .reveal.in-view {
   opacity: 1;
   transform: translateY(0) scale(1);
